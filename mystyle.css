@@ -1,0 +1,283 @@
+ *{
+     box-sizing: border-box;
+ }
+ 
+ body{
+     overflow-x: hidden;
+ }
+ 
+ header{
+    height: 95px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    border-bottom: 4px solid #137791;
+   
+    
+  }
+  
+  .navbar-brand{
+    margin-top: 10px;
+  }
+  
+  .logo{
+    width: 85px;
+  }
+  
+  .navbar{
+    background: transparent;
+    
+    
+    
+  }
+  
+  .navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+  }
+  
+  .nav-item{
+    margin-right: 20px;
+  }
+  
+  .navbar-collapse{
+    
+    display: flex;
+    justify-content: center;
+  }
+  
+  .raxdeba{ 
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .dropdown-toggle::after{
+    content: none;
+  }
+  
+  .nav-link{
+    color: #253e5b !important;
+    font-size: 18px;
+    
+  }
+  
+  .nav-link:hover{
+    color: #ffa838 !important;
+  }
+  
+  .active{
+    color: #ffa838 !important;
+  }
+  
+  .active2{
+    background: black;
+  }
+  
+  .active2 a{
+    color: #ffa838 !important;
+  }
+  
+  .active:hover{
+    color: #253b5b !important;
+  }
+  
+  .drpMenu, .drogba{
+    background: none;
+   background: lightblue;
+  }
+  
+  .drpMenu{
+    margin-top: -5px;
+    background:#e5e5e5;
+    opacity: 0.5;
+  }
+  
+  .dropdown-item:hover{
+    background:rgb(131, 166, 240);
+  }
+
+
+  .hero-content{
+      margin-top: 90px !important;
+  }
+
+
+  
+  .carousel-inner{
+      position: relative !important;
+  }
+
+  h1{
+      font-size: 56px;
+      text-align: left;
+      position: absolute !important;
+      color: white;
+      bottom: 50px;
+      left: 86px;
+
+ }
+
+  .row1{
+      margin-top: 80px;
+  }
+
+  
+
+  .col-md-7{
+      padding-left: 100px;
+  }
+
+  .left-text1{
+      margin-top: 20px;
+  }
+
+  .col-md-5{
+    padding-left: 80px;
+  }
+
+  .btn-contact{
+      background:  #137791;
+      width: 80%;
+      border-radius: 30px;
+      margin-top: 20px;
+  }
+
+  .contact-box{
+      background-color: #f3f3f3;
+      width: 80%;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+  }
+
+  
+
+  .contact-text{
+      width: 80%;
+      margin-top: 10px;
+      font-size: 13px;
+  }
+  
+  hr{
+      width: 80%;
+  }
+
+  .contact-box-title{
+      display: flex;
+      justify-content: flex-start !important;
+      width: 80%;
+  }
+
+  .body-contact{
+      background-color: #2596be;
+      color: #485e74;
+      line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 1em;
+  }
+
+  .container-contact{
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em;
+  }
+
+  .company-info ul{
+      list-style: none;
+      padding: 0;
+  }
+
+
+  .wrapper{
+      box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  }
+
+  .wrapper > * {
+      padding: 1em;
+  }
+
+  .company-info{
+      background-color: #8bd2ec;
+  }
+
+  .company-info h3, .company-info ul{
+      text-align: center;
+      margin: 0 0 1rem 0;
+  }
+
+  .company-info h3{
+      color: white;
+  }
+
+  .contact{
+      background: #f9feff;
+  }
+
+  /* Form Style */
+  .contact form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+  }
+
+  .contact form label{
+    display: block;
+  }
+
+  .contact form p{
+      margin: 0;
+  }
+
+  .contact form .full{
+      grid-column: 1 / 3;
+  }
+
+  .contact form button, .contact form input, .contact form textarea{
+      width: 100%;
+    
+     
+  }
+
+  .contact form button{
+      background: #c9e6ff;
+      text-transform: uppercase;
+  }
+
+  .contact form button:hover, .contact form button:focus{
+      background: #2596be;
+      color: white;
+      outline: 0;
+      
+  }
+
+  .fas{
+      margin-right: 5px;
+  }
+
+  /*Responsive*/
+  @media(min-width:700px){
+      .wrapper{
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+      }
+      .wrapper > * {
+          padding: 2em;
+      }
+      .container-contact{
+          margin-top: 100px;
+      }
+     
+  }
+  
