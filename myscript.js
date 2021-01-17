@@ -14,6 +14,8 @@ var burgerHide = document.getElementById("burgerHide");
 var burgerShow = document.getElementById("burgerShow");
 var up = document.getElementById("up");
 
+var textBoxes = document.getElementById("textBoxes");
+
 function onProjectsHover(){
 drpMenu.style.display="block";
 }
@@ -61,7 +63,9 @@ function onBurgerClick(){
     hiddenMenu.style.display = "none";
     burgerShow.style.display = "block";
     burgerHide.style.display = "none";
-    heroDiv.style.display = "block";
+    textBoxes.style.display="block";
+
+   
     copy.style.display="block";
     up.style.setProperty("display", "flex", "important");
     
@@ -69,9 +73,13 @@ function onBurgerClick(){
     hiddenMenu.style.display = "flex";
     burgerHide.style.display = "block";
     burgerShow.style.display = "none";
-    heroDiv.style.display = "none";
+    textBoxes.style.display="none";
+
+    
     copy.style.display="none";
     up.style.setProperty("display", "none", "important");  
     
   }
 }
+
+

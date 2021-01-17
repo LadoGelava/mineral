@@ -77,9 +77,7 @@
     color: #ffa838 !important;
   }
   
-  .active2{
-    background: black;
-  }
+  
   
   .active2 a{
     color: #ffa838 !important;
@@ -266,6 +264,82 @@
       margin-right: 5px;
   }
 
+  .fa-times{
+    font-size: 32px;
+    display: none;
+    color: black;
+    
+  }
+  
+  
+  
+  
+  
+  .fa-bars{
+    font-size: 32px;
+    color: black;
+  }
+
+  .hiddenMenu .nav-item:hover{
+    background: black;
+    
+  }
+  
+  
+  
+  .hiddenMenu .nav-link{
+      font-size: 28px;
+  }
+  
+  .hiddenMenu .nav-link:hover{
+    background: black;
+    border-bottom: 0;
+    
+  }
+  
+  .hiddenMenu .nav-item{
+    width: 100%;
+    padding-left: 25px;
+  }
+  
+  .drpMenu2, .drogba2{
+    position: absolute;
+    left: -100px;
+    top: 5px;
+    background: lightgrey;
+    display: none;
+  }
+  
+  .drogba{
+    margin-left: -30px;
+  }
+  
+  
+  
+  .hiddenMenu{
+    display: none;
+    flex-direction: column !important;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    top: 95px;
+    position: absolute;
+    justify-content: flex-start;
+    background: white;
+    z-index: 1;
+  }
+
+  .burger{
+    z-index: 2;
+  }
+
+  .block2{
+      width: 80%;
+      background: #f3f3f3;
+      margin-top: 30px;
+      height: 300px;
+  }
+
   /*Responsive*/
   @media(min-width:700px){
       .wrapper{
@@ -279,5 +353,154 @@
           margin-top: 100px;
       }
      
+  }
+
+  @media only screen and (max-width: 1207px) {
+    .employ{
+      justify-content: space-around;
+    }
+    .coolText{
+      width: 55%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 991px) {
+    .hiddenMenu{
+      display: none !important;
+    }
+  
+    #heroDiv, .copy{
+      display: block !important;
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .navbar-brand{
+      display: block !important;
+    }
+  
+    .raxdeba{
+      justify-content: space-between;
+    }
+     
+  }
+  
+  @media only screen and (max-width: 888px) {
+    .teamImages{
+      margin-top: -30px;
+    }
+  }
+  
+  @media only screen and (max-width: 777px) {
+  .block{
+    margin-top: 0px;
+  }
+  .sloganMainPage h1{
+    color: #ffa838;
+  }
+  
+  .teamImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team1, .team2, .team3{
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .team1{
+    margin-top: 0px;
+  }
+  
+  .expl{
+    margin-top: 25px;
+  }
+  
+  .teamText{
+    width: 80%;
+  }
+  
+  .employ{
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .coolText{
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .mazafaqa{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hector{
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  .hector3{
+    margin-top: 57px;
+    margin-right: 0px;
+  }
+  
+  .hector1{
+    margin-top: -15px;
+  }
+  
+  
+  }
+  
+  @media only screen and (max-width: 442px) {
+   h1{
+     font-size: 32px;
+   }
+  
+  
+   .raxdeba{
+     padding-left: 0px;
+     padding-right: 0px;
+   }
+  
+   .hiddenMenu{
+     
+     text-align: right;
+   }
+  
+   .hiddenMenu .nav-item{
+     padding-right: 20px;
+   }
+  
+  }
+  
+  @media only screen and (max-width: 377px) {
+  
+    .hector{
+      margin-right: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 370px) {
+  
+    h1{
+      font-size: 28px;
+    }
+  }
+  
+  @media only screen and (max-width: 345px) {
+  
+    .hector{
+      margin-right: 7px;
+    }
   }
   
