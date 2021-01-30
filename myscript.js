@@ -1,3 +1,7 @@
+
+
+
+
 //declarations
 
 
@@ -15,6 +19,16 @@ var burgerShow = document.getElementById("burgerShow");
 var up = document.getElementById("up");
 
 var textBoxes = document.getElementById("textBoxes");
+var navbarNav= document.getElementById("navbarNav");
+var body = document.getElementById("body");
+
+
+
+
+
+
+
+//End
 
 function onProjectsHover(){
 drpMenu.style.display="block";
@@ -64,22 +78,23 @@ function onBurgerClick(){
     burgerShow.style.display = "block";
     burgerHide.style.display = "none";
     textBoxes.style.display="block";
-
+  
    
-    copy.style.display="block";
-    up.style.setProperty("display", "flex", "important");
+    
     
   } else {
     hiddenMenu.style.display = "flex";
     burgerHide.style.display = "block";
     burgerShow.style.display = "none";
     textBoxes.style.display="none";
+    
+    
 
     
-    copy.style.display="none";
-    up.style.setProperty("display", "none", "important");  
+    
     
   }
 }
+
 
 

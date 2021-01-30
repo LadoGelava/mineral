@@ -10,42 +10,31 @@
     height: 95px;
     position: fixed;
     z-index: 1;
-    background-color: white;
+    background-color: #35393c;
     top: 0;
     width: 100%;
-    border-bottom: 4px solid #137791;
-   
-    
+    border-bottom: 4px solid #c93428;
   }
   
   .navbar-brand{
-    margin-top: 10px;
-  }
-  
-  .logo{
-    width: 85px;
-  }
+    color:  #c93428 !important;
+  } 
   
   .navbar{
-    background: transparent;
-    
-    
-    
+    background: transparent;  
   }
   
   .navbar-nav{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    
   }
   
   .nav-item{
     margin-right: 20px;
   }
   
-  .navbar-collapse{
-    
+  .navbar-collapse{   
     display: flex;
     justify-content: center;
   }
@@ -57,6 +46,8 @@
     width: 100%;
     padding-left: 70px;
     padding-right: 70px;
+    margin-top: 15px;
+ 
   }
   
   .dropdown-toggle::after{
@@ -64,54 +55,58 @@
   }
   
   .nav-link{
-    color: #253e5b !important;
+    color: white !important;
     font-size: 18px;
     
   }
   
   .nav-link:hover{
-    color: #ffa838 !important;
+    color: #c93428 !important;
   }
   
-  .active{
-    color: #ffa838 !important;
+  .navbar .active{
+    color: #c93428 !important;
   }
   
   
   
   .active2 a{
-    color: #ffa838 !important;
+    color: #35393c !important;
   }
   
-  .active:hover{
-    color: #253b5b !important;
+ .navbar .active:hover{
+    color: white !important;
   }
   
   .drpMenu, .drogba{
     background: none;
-   background: lightblue;
+   background: #c93428;
   }
   
   .drpMenu{
     margin-top: -5px;
-    background:#e5e5e5;
-    opacity: 0.5;
+    background:#c93428;
+    opacity: 0.8;
   }
   
+  .dropdown-item{
+    color: #fff;
+  }
+
   .dropdown-item:hover{
-    background:rgb(131, 166, 240);
+    background: #35393c;
+    color: #c93428;
   }
 
 
   .hero-content{
       margin-top: 90px !important;
+      width: 100% !important;
+      margin-right: 0;
   }
 
 
-  
-  .carousel-inner{
-      position: relative !important;
-  }
+
 
   h1{
       font-size: 56px;
@@ -120,7 +115,6 @@
       color: white;
       bottom: 50px;
       left: 86px;
-
  }
 
   .row1{
@@ -142,14 +136,15 @@
   }
 
   .btn-contact{
-      background:  #137791;
+      background:  #c93428;
       width: 80%;
       border-radius: 30px;
       margin-top: 20px;
+      color: white;
   }
 
   .contact-box{
-      background-color: #f3f3f3;
+      background-color: #35393c;
       width: 80%;
       padding-top: 30px;
       padding-bottom: 40px;
@@ -157,9 +152,8 @@
       flex-direction: column;
       align-items: center;
       position: relative;
+      color: white;
   }
-
-  
 
   .contact-text{
       width: 80%;
@@ -267,8 +261,8 @@
   .fa-times{
     font-size: 32px;
     display: none;
-    color: black;
-    
+    color: #c93428;
+
   }
   
   
@@ -277,13 +271,16 @@
   
   .fa-bars{
     font-size: 32px;
-    color: black;
+    color: #c93428;
+    
   }
 
   .hiddenMenu .nav-item:hover{
-    background: black;
+    background: #35393c;
+    
     
   }
+
   
   
   
@@ -292,7 +289,7 @@
   }
   
   .hiddenMenu .nav-link:hover{
-    background: black;
+    background: #35393c;
     border-bottom: 0;
     
   }
@@ -300,6 +297,7 @@
   .hiddenMenu .nav-item{
     width: 100%;
     padding-left: 25px;
+    padding-left: 70px;
   }
   
   .drpMenu2, .drogba2{
@@ -325,20 +323,24 @@
     top: 95px;
     position: absolute;
     justify-content: flex-start;
-    background: white;
+    background: #c93428;
     z-index: 1;
+   
   }
 
   .burger{
     z-index: 2;
+    
   }
 
-  .block2{
-      width: 80%;
-      background: #f3f3f3;
-      margin-top: 30px;
-      height: 300px;
+  .member-box{
+   margin-top: 30px;
   }
+
+  
+
+  /* Slideshow container */
+
 
   /*Responsive*/
   @media(min-width:700px){
@@ -355,14 +357,7 @@
      
   }
 
-  @media only screen and (max-width: 1207px) {
-    .employ{
-      justify-content: space-around;
-    }
-    .coolText{
-      width: 55%;
-    }
-  }
+ 
   
   
   @media only screen and (min-width: 991px) {
@@ -370,9 +365,7 @@
       display: none !important;
     }
   
-    #heroDiv, .copy{
-      display: block !important;
-    }
+    
   
     
   }
@@ -388,78 +381,11 @@
      
   }
   
-  @media only screen and (max-width: 888px) {
-    .teamImages{
-      margin-top: -30px;
-    }
-  }
-  
-  @media only screen and (max-width: 777px) {
-  .block{
-    margin-top: 0px;
-  }
-  .sloganMainPage h1{
-    color: #ffa838;
-  }
-  
-  .teamImages{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .team1, .team2, .team3{
-    width: 50%;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 30px;
-  }
-  .team1{
-    margin-top: 0px;
-  }
-  
-  .expl{
-    margin-top: 25px;
-  }
-  
-  .teamText{
-    width: 80%;
-  }
-  
-  .employ{
-    flex-direction: column;
-    align-items: center;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  
-  .coolText{
-    width: 90%;
-    margin-top: 20px;
-  }
-  
-  .mazafaqa{
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hector{
-    margin-right: 40px;
-    margin-top: 30px;
-  }
+
   
   
   
-  .hector3{
-    margin-top: 57px;
-    margin-right: 0px;
-  }
-  
-  .hector1{
-    margin-top: -15px;
-  }
-  
-  
-  }
+
   
   @media only screen and (max-width: 442px) {
    h1{
@@ -483,12 +409,7 @@
   
   }
   
-  @media only screen and (max-width: 377px) {
-  
-    .hector{
-      margin-right: 10px;
-    }
-  }
+
   
   @media only screen and (max-width: 370px) {
   
@@ -497,10 +418,5 @@
     }
   }
   
-  @media only screen and (max-width: 345px) {
   
-    .hector{
-      margin-right: 7px;
-    }
-  }
   
