@@ -10,11 +10,13 @@
     height: 95px;
     position: fixed;
     z-index: 1;
-    background-color: #35393c;
+    background-color: #253e5b; 
     top: 0;
     width: 100%;
     border-bottom: 4px solid #ffa838;
   }
+
+  /* #35393c*/
   
   .navbar-brand{
     color:  #ffa838 !important;
@@ -71,7 +73,7 @@
   
   
   .active2 a{
-    color: #35393c !important;
+    color: #253e5b !important;
   }
   
  .navbar .active:hover{
@@ -94,7 +96,7 @@
   }
 
   .dropdown-item:hover{
-    background: #35393c;
+    background: #253e5b;
     color: #ffa838;
   }
 
@@ -144,7 +146,7 @@
   }
 
   .contact-box{
-      background-color: #35393c;
+      background-color: #253e5b;
       width: 80%;
       padding-top: 30px;
       padding-bottom: 40px;
@@ -276,7 +278,7 @@
   }
 
   .hiddenMenu .nav-item:hover{
-    background: #35393c;
+    background: #253e5b;
     
     
   }
@@ -289,7 +291,7 @@
   }
   
   .hiddenMenu .nav-link:hover{
-    background: #35393c;
+    background: #253e5b;
     border-bottom: 0;
     
   }
