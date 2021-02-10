@@ -94,7 +94,7 @@
   }
   
   .dropdown-item{
-    color: #fff;
+    color: #35393c;
   }
 
   .dropdown-item:hover{
@@ -149,12 +149,12 @@
       width: 80%;
       border-radius: 30px;
       margin-top: 20px;
-      color: white;
+      color: #35393c !important;
   }
 
   .btn-contact:hover{
     background: transparent;
-    color: #ffa838;
+    color: #ffa838 !important;
     border: 1px solid #ffa838;
   }
   
@@ -274,11 +274,12 @@
   .contact form button{
       background: #ffa838;
       text-transform: uppercase;
+      color: #35393c;
   }
 
   .contact form button:hover, .contact form button:focus{
       background: #35393c;
-      color: white;
+      color: #ffa838;
       outline: 0;
       
   }
@@ -401,9 +402,48 @@
     right: -50px;
   }
 
-  
+  /* about page */
+  .about-container{
+    margin-top: 150px;
+    width: 100%;
+  }
 
+  .about-row{
+    display: flex;
+    justify-content: center;
  
+  }
+  .col-md-10{
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    background: #35393c;
+  }
+
+  .about-container{
+    color: white;
+
+  }
+
+  .about-container h3{
+    color: #ffa838;
+  }
+
+  .about-container hr{
+    color: #ffa838;
+  }
+
+  .about-team, .about-board, .about-georgia{
+    margin-top: 
+    30px;
+  }
+
+  .center-about{
+ 
+    display: flex;
+    justify-content: center;
+  }
+ 
+  
 
 
   /*Responsive*/
@@ -545,7 +585,9 @@
     .carousel-caption{
       display: block !important;
     }
-     
+     #carouselExampleSlidesOnly img{
+       height: auto !important;
+     }
   }
   
 

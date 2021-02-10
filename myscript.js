@@ -22,6 +22,8 @@ var textBoxes = document.getElementById("textBoxes");
 var navbarNav= document.getElementById("navbarNav");
 var body = document.getElementById("body");
 var contact = document.getElementById('contact');
+var about = document.getElementById('about');
+
 
 
 
@@ -76,20 +78,26 @@ function onBurgerClick(){
   
   if (hiddenMenu.style.display === "flex") {
     hiddenMenu.style.display = "none";
+    about.style.display="none";
     burgerShow.style.display = "block";
     burgerHide.style.display = "none";
     textBoxes.style.display="block";
-    contact.style.display="block";
   
+    contact.style.display="block";
+   
    
     
     
   } else {
     hiddenMenu.style.display = "flex";
+    about.style.display="none";
     burgerHide.style.display = "block";
     burgerShow.style.display = "none";
     textBoxes.style.display="none";
+ 
     contact.style.display="none";
+
+    
     
     
 
@@ -98,6 +106,8 @@ function onBurgerClick(){
     
   }
 }
+
+
 
 
 

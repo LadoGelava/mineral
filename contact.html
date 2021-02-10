@@ -15,85 +15,80 @@
   <body class="body-contact">
 
     <header>
-        <!-- Lets create navigation menu -->
-          <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="raxdeba">
-                  <a class="navbar-brand" href="index.html">logo</a>
-            <button onclick="onBurgerClick()" id="burger" class="navbar-toggler burger" type="button"  data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <b><i id="burgerShow" class="fa fa-bars" aria-hidden="true"></i></b>
-              <strong><i id="burgerHide" class="fa fa-times" aria-hidden="true"></i></strong>
-            </button>
+      <!-- Lets create navigation menu -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="raxdeba">
+                <a class="navbar-brand" href="index.html">logo</a>
+          <button onclick="onBurgerClick()" id="burger" class="navbar-toggler burger" type="button"  data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <b><i id="burgerShow" class="fa fa-bars" aria-hidden="true"></i></b>
+            <strong><i id="burgerHide" class="fa fa-times" aria-hidden="true"></i></strong>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+              <ul id="navbarNav" class="navbar-nav mr-auto">
+                  <li class="nav-item"><a class="nav-link " href="index.html"><b>Home</b></a></li>
+                
+                  
+                 
+                  <li class="nav-item"><a class="nav-link" href="about.html"><b>About</b></a></li>
+                   
+                    <li onmouseover="onProjectsHover()" onmouseout="onProjectsOut()" class="nav-item dropdown main main2" >
+                        <a   class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <b>Projects
+                          
+                              
+                              
+                              
+                          </b>
+                        </a>
+                        <div class="dropdown-menu drpMenu" id="drpMenu" aria-labelledby="navbarDropdown">
+                          
+                            <a class="dropdown-item" href="georgia.html"><strong>Georgia</strong></a>
+                            
+                          
+                        </div>
+                      </li> 
+                      <li class="nav-item "><a class="nav-link menu active" href="#"><b>Contact</b></a></li>
+              </ul>
               
-              
-                <ul id="navbarNav" class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#"><b>Home</b></a></li>
+            </div>
+          </div>
+         
+        </nav>
+        
+      </header> 
+      <ul class="navbar-nav hiddenMenu mr-auto" id="hiddenMenu">
+    
+          <li class="nav-item "><a class="nav-link" href="index.html"><b>Home</b></a></li>
+          
+          
+         
+          <li class="nav-item"><a class="nav-link" href="about.html"><b>About</b></a></li>
+            
+            <li onmouseover="onDrogba()" onmouseout="onDrogbaOut()" class="nav-item dropdown drpProjects" >
+                <a   class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Projects
+                  
+                      
+                      
+                      
+                  </b>
+                </a>
+                <div class="dropdown-menu drogba" id="drogba" aria-labelledby="navbarDropdownMenu">
+                  
+                    <a class="dropdown-item" href="georgia.html">Georgia</a>
                   
                     
-                   
-                    <li class="nav-item"><a class="nav-link" href="about.html"><b>About</b></a></li>
-                     
-                      <li onmouseover="onProjectsHover()" onmouseout="onProjectsOut()" class="nav-item dropdown main main2" >
-                          <a   class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <b>Projects
-                            
-                                
-                                
-                                
-                            </b>
-                          </a>
-                          <div class="dropdown-menu drpMenu" id="drpMenu" aria-labelledby="navbarDropdown">
-                            
-                              <a class="dropdown-item" href="#"><strong>Project1</strong></a>
-                              <a class="dropdown-item" href="#">Project2</a>
-                              <a class="dropdown-item" href="#">Project3</a>
-                              
-                            
-                            <a class="dropdown-item" href="social_program.html">Social Program</a>
-                            
-                          </div>
-                        </li> 
-                        <li class="nav-item"><a class="nav-link menu" href="contact.html"><b>Contact</b></a></li>
-                </ul>
-                
-              </div>
-            </div>
-           
-          </nav>
-          
-        </header> 
-        <ul class="navbar-nav hiddenMenu mr-auto" id="hiddenMenu">
-      
-            <li class="nav-item active2"><a class="nav-link" href="#"><b>Home</b></a></li>
-            <li class="nav-item"><a class="nav-link" href="georgia.html"><b>Georgia</b></a></li>
-            
-           
-            <li class="nav-item"><a class="nav-link" href="about.html"><b>About</b></a></li>
-              
-              <li onmouseover="onDrogba()" onmouseout="onDrogbaOut()" class="nav-item dropdown drpProjects" >
-                  <a   class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <b>Projects
-                    
-                        
-                        
-                        
-                    </b>
-                  </a>
-                  <div class="dropdown-menu drogba" id="drogba" aria-labelledby="navbarDropdownMenu">
-                    
-                      <a class="dropdown-item" href="#">Project1</a>
-                      <a class="dropdown-item" href="#">Project2</a>
-                      <a class="dropdown-item" href="#">Project3</a>
-                      
-                   
-                    <a class="dropdown-item" href="social_program.html">Social Program</a>
-                    
-                  </div>
-                </li> 
-                <li class="nav-item"><a class="nav-link menu" href="contact.html"><b>Contact</b></a></li>
-        </ul>
-        <!--hide menu end-->
+                 
+                 
+                  
+                </div>
+              </li> 
+              <li class="nav-item active2"><a class="nav-link menu" href="#"><b>Contact</b></a></li>
+      </ul>
+      <!--hide menu end-->
    <div class="container container-contact">
        
        <div class="wrapper animated bounceInLeft" id="contact">
