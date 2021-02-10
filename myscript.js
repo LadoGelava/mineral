@@ -21,6 +21,7 @@ var up = document.getElementById("up");
 var textBoxes = document.getElementById("textBoxes");
 var navbarNav= document.getElementById("navbarNav");
 var body = document.getElementById("body");
+var contact = document.getElementById('contact');
 
 
 
@@ -78,6 +79,7 @@ function onBurgerClick(){
     burgerShow.style.display = "block";
     burgerHide.style.display = "none";
     textBoxes.style.display="block";
+    contact.style.display="block";
   
    
     
@@ -87,6 +89,7 @@ function onBurgerClick(){
     burgerHide.style.display = "block";
     burgerShow.style.display = "none";
     textBoxes.style.display="none";
+    contact.style.display="none";
     
     
 

@@ -189,18 +189,28 @@
   }
 
   .body-contact{
-      background-color: #2596be;
+     
       color: #485e74;
+      color: black;
       line-height: 1.6;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding: 1em;
+      
   }
+
+  
 
   .container-contact{
       max-width: 1170px;
       margin-left: auto;
       margin-right: auto;
       padding: 1em;
+      margin-top: 100px;
+     
+      
+  }
+
+  .container-contact h3{
+    color: black;
   }
 
   .company-info ul{
@@ -218,7 +228,8 @@
   }
 
   .company-info{
-      background-color: #8bd2ec;
+      background-color: #35393c;
+      color: white;
   }
 
   .company-info h3, .company-info ul{
@@ -228,6 +239,7 @@
 
   .company-info h3{
       color: white;
+      color: #ffa838;
   }
 
   .contact{
@@ -260,12 +272,12 @@
   }
 
   .contact form button{
-      background: #c9e6ff;
+      background: #ffa838;
       text-transform: uppercase;
   }
 
   .contact form button:hover, .contact form button:focus{
-      background: #2596be;
+      background: #35393c;
       color: white;
       outline: 0;
       
@@ -294,6 +306,7 @@
 
   .hiddenMenu .nav-item:hover{
     background: #253e5b;
+    background: #35393c;
     
     
   }
@@ -307,6 +320,7 @@
   
   .hiddenMenu .nav-link:hover{
     background: #253e5b;
+    background: #35393c;
     border-bottom: 0;
     
   }
