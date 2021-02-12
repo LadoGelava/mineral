@@ -365,8 +365,10 @@
     
   }
 
-  .member-box{
-   margin-top: 30px;
+  .member-box .active{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
   }
 
   .member-box img{
@@ -375,8 +377,12 @@
 
   #carouselExampleCaptions .carousel-item {
     position: relative;
-    padding-top: 140px;
+    padding-top: 170px;
     
+  }
+
+  #carouselExampleCaptions img{
+    width: 70% !important;
   }
 
   .carousel-caption{
@@ -442,102 +448,42 @@
     display: flex;
     justify-content: center;
   }
- 
+
+  /*georgia*/
+  
+  .georgia h3{
+    color: #35393c !important;
+  }
+
+  .georgia-block{
+      padding: 30px;
+      background: white !important;
+      box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+      margin-top: 30px;
+  }
+
+  .georgia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
 
 
   /*Responsive*/
 
   @media(max-width:1190px){
-    .member-box img{
-      width: 80% !important;
-        }
-        #carouselExampleCaptions .active{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        .carousel-control-prev{
-          left: -30px;
-          
-        }
-      
-        .carousel-control-next{
-          right: -30px;
-        }
-
-        .carousel-control-prev, .carousel-control-next{
-          top: 42%;
-         
-        }
+    #carouselExampleCaptions .carousel-control-prev{
+      display: none;
     }
 
+    #carouselExampleCaptions .carousel-control-next{
+      display: none;
+    }
+  }
 
-    @media(max-width:1070px){
-      .member-box img{
-        width: 70% !important;
-          }
-        
-          .carousel-control-prev{
-            left: -20px;
-            
-          }
-        
-          .carousel-control-next{
-            right: -20px;
-          }
 
-         
-      }
-
-      @media(max-width:1000px){
-        .member-box img{
-          width: 60% !important;
-            }
-          
-            .carousel-control-prev{
-              left: -10px;
-              
-            }
-          
-            .carousel-control-next{
-              right: -10px;
-            }
-  
-           
-        }
-
-        @media(max-width:983px){
-          .member-box img{
-            width: 50% !important;
-              }
-            
-              .carousel-control-prev{
-                left: 0;
-                
-              }
-            
-              .carousel-control-next{
-                right: 0;
-              }
-
-              .carousel-control-prev, .carousel-control-next{
-                top: 50%;
-               
-              }
-    
-             
-          }
-
-          @media(max-width:863px){
-            .member-box img{
-              margin-top: 30px;
-                } 
-  
-                .carousel-control-prev, .carousel-control-next{
-                top: 58%;
-                }
-            }
+   
       
     
    
@@ -623,22 +569,19 @@
       margin-top: 20px;
       color: white;
   }
-  .member-box img{
-    
-    width: 100% !important;
-    margin-top: 0px !important;
-      } 
+  #carouselExampleCaptions .carousel-control-prev{
+    display: block;
+    top: 65%;
+    position: absolute;
+    left: 2%;
+  }
 
-      .carousel-control-prev, .carousel-control-next{
-      top: 40%;
-      }
-
-      .carousel-control-prev{
-        left: -100px;
-      }
-      .carousel-control-next{
-        right: -100px;
-      }
+  #carouselExampleCaptions .carousel-control-next{
+    display: block;
+    top: 65%;
+    position: absolute;
+    right: 2%;
+  }
   
   }
   
@@ -670,12 +613,7 @@
           left: 8px;
           bottom: 15px;
         }
-        .carousel-control-prev{
-          left: -50px;
-        }
-        .carousel-control-next{
-          right: -50px;
-        }
+        
 
          }
 
@@ -691,6 +629,20 @@
           .member-box{
             margin-top: 0;
           }
+          #carouselExampleCaptions .carousel-control-prev{
+            display: block;
+            top: 70%;
+            position: absolute;
+            left: 2%;
+          }
+        
+          #carouselExampleCaptions .carousel-control-next{
+            display: block;
+            top: 70%;
+            position: absolute;
+            right: 2%;
+          }
+          
            }
   
   @media only screen and (max-width: 442px) {
@@ -720,20 +672,11 @@
       bottom: 2px;
     }
 
-    .carousel-control-prev{
-      left: -9px;
-    }
-    .carousel-control-next{
-      right: -9px;
-    }
-
-    .member-box img{
-    
-      width: 70% !important;
-
-
    
-  }
   
   
+}
+
+.member-box{
+  margin-top: 30px !important;
 }
